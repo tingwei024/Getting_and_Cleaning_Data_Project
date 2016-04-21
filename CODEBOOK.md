@@ -1,21 +1,24 @@
 #Code Book
+
 ---
 ##Collection
 
 Raw data is obtained from UCI Machine Learning Repository.And we used the data "Human Activity Recognition Using Smartphones Data Set".It built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
+
 ---
 ##Variables
 
-BodyAcc-XYZ
-GravityAcc-XYZ
-BodyAccJerk-XYZ
-BodyGyro-XYZ
-BodyGyroJerk-XYZ
-BodyAccMag
-GravityAccMag
-BodyAccJerkMag
+BodyAcc-XYZ,
+GravityAcc-XYZ,
+BodyAccJerk-XYZ,
+BodyGyro-XYZ,
+BodyGyroJerk-XYZ,
+BodyAccMag,
+GravityAccMag,
+BodyAccJerkMag,
 
 There are two kinds of domain for each signal,time and frequency.
+
 ---
 ###The set of variables that were estimated from these signals are: 
 
@@ -37,8 +40,8 @@ kurtosis(): kurtosis of the frequency domain signal
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 angle(): Angle between to vectors.
 
-##Tidy Step
 ---
+##Tidy Step
 1. Loads all eight data(	x_test,y_test_subject_test,x_train,y_train,_subject_train,feature and activityName)
 2. Merges the trainning and the test sets,and rename the column to create one data set.
 3. Extracts mean and standard deviation for each measurement.
