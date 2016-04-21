@@ -2,7 +2,7 @@
 ---
 ##Collection
 
- Raw data is obtained from UCI Machine Learning Repository.And we used the data "Human Activity Recognition Using Smartphones Data Set".It built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
+Raw data is obtained from UCI Machine Learning Repository.And we used the data "Human Activity Recognition Using Smartphones Data Set".It built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 ---
 ##Variables
 
