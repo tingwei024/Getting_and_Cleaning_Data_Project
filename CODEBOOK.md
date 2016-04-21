@@ -1,6 +1,7 @@
 #Code Book
 ---
 ##Collection
+
  Raw data is obtained from UCI Machine Learning Repository.And we used the data "Human Activity Recognition Using Smartphones Data Set".It built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 ---
 ##Variables
@@ -44,4 +45,3 @@ angle(): Angle between to vectors.
 4. Name activities to decriptive activity names 
 5. Make all variables name readable , and get the tidy data.
 6. Create another tidy data with the average of each variable for each activity and each subject.
-6. 
