@@ -45,8 +45,6 @@ names(Data)<-gsub("^f","frequency",names(Data))
 
 ##From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-FinalData <- Data %>%
-    group_by(subject, activity) %>%
-    summarise_each(funs(mean))
+Data_avg = ddply(Data, c("subject","activity"), numcolwise(mean))
 
-write.table(groupData, "./Getting_and_Cleaning_data_Project/MeanData.txt", row.names = FALSE)
+write.table(Data_avg, "./Project/DataAvg.txt")
